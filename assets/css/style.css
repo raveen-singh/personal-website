@@ -8,3 +8,13 @@
   top: 0;
   width: 200px;
 }
+.intro {
+  text-align: center;
+}
+
+.seperator {
+  width: 50px;
+    height: 1px;
+    background: black;
+    margin-left: 50%;
+}
