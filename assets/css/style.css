@@ -1,4 +1,10 @@
-h1 {
-  color: black;
-  text-align: center;
+#blob{
+  position: absolute;
+  padding: 50px;
+}
+.stats{
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
 }
