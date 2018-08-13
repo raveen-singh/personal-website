@@ -8,13 +8,7 @@ new fullpage('#fullpage', {
 });
 $(function () {
     $('#fullpage').fullpage({});
-
-    $
-        .fn
-        .fullpage
-        .setMouseWheelScrolling(false);
-    $
-        .fn
-        .fullpage
-        .setAllowScrolling(false);
+});
+$('#fullpage').fullpage({
+    anchors: ['section1', 'section2']
 });

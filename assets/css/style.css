@@ -9,7 +9,9 @@
   width: 200px;
 }
 .intro {
-  text-align: center;
+  display: inline;
+  font-family: lato;
+  font-weight: 300;
 }
 
 .seperator {
@@ -17,4 +19,9 @@
   height: 1px;
   background: black;
   margin-left: 50%;
+}
+.intro-b {
+  display: inline;
+  font-family: lato;
+  font-weight: 700;
 }
