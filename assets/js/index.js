@@ -1,14 +1,20 @@
-$(document)
-    .ready(function () {
-        $('#fullpage').fullpage({
-            //options here
-            autoScrolling: true,
-            scrollHorizontally: true
-        });
+new fullpage('#fullpage', {
+    sectionsColor: [
+        'yellow', 'orange', '#C0C0C0', '#ADD8E6'
+    ],
+    keyboardScrolling: false,
+    autoScrolling: false,
+    anchors: ['first', 'second']
+});
+$(function () {
+    $('#fullpage').fullpage({});
 
-        //methods
-        $
-            .fn
-            .fullpage
-            .setAllowScrolling(false);
-    });
+    $
+        .fn
+        .fullpage
+        .setMouseWheelScrolling(false);
+    $
+        .fn
+        .fullpage
+        .setAllowScrolling(false);
+});
