@@ -1,7 +1,5 @@
 new fullpage('#fullpage', {
-    sectionsColor: [
-        'yellow', 'orange', '#C0C0C0', '#ADD8E6'
-    ],
+    sectionsColor: ['#4286f4'],
     keyboardScrolling: false,
     autoScrolling: false,
     anchors: ['first', 'second']
