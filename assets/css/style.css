@@ -12,6 +12,7 @@
   display: inline;
   font-family: lato;
   font-weight: 300;
+  text-align: center;
 }
 
 .seperator {
@@ -24,6 +25,7 @@
   display: inline;
   font-family: lato;
   font-weight: 700;
+  text-align: center;
 }
 
 h1 {
