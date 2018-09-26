@@ -12,11 +12,10 @@
   display: inline;
   font-family: lato;
   font-weight: 300;
-  text-align: center;
 }
 
 .seperator {
-  width: 50px;
+  width: 20%;
   height: 1px;
   background: black;
   margin-left: 50%;
@@ -25,9 +24,12 @@
   display: inline;
   font-family: lato;
   font-weight: 700;
-  text-align: center;
 }
 
 h1 {
   font-size: 60px;
+}
+
+.icon {
+  margin-top: 75px;
 }
