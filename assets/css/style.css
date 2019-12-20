@@ -1,35 +1,12 @@
-#blob {
-  position: absolute;
-  padding: 50px;
-}
-.stats {
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 200px;
-}
-.intro {
-  display: inline;
-  font-family: lato;
-  font-weight: 300;
+#flex-container {
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
 }
 
-.seperator {
-  width: 20%;
-  height: 1px;
-  background: black;
-  margin-left: 50%;
-}
-.intro-b {
-  display: inline;
-  font-family: lato;
-  font-weight: 700;
-}
-
-h1 {
-  font-size: 60px;
-}
-
-.icon {
-  margin-top: 75px;
+p {
+  color: red;
 }
