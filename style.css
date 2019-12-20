@@ -36,6 +36,7 @@ height: 50vh;
 #contact-header {
   color: #33384c;
   font-size: 1rem;
+  text-indent: 40px; 
 }
 .jiosaavn:before { background: #2bc5b4; }
 .music:before { background: #f32782; opacity: 0.6; }
