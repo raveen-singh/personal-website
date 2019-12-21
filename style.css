@@ -20,6 +20,8 @@ body {
 
 #flex-container div {
   max-width: 500px;
+  margin-top: 35vh;
+  margin-bottom: 50px;
 }
 
 p {
@@ -33,14 +35,21 @@ p {
 
 
 #resume {
-  text-align: center;
-  text-indent: 0 !important;
+  border-bottom: 1px solid #d3d3d3;
+  box-shadow: 0px -4px 0px #d3d3d3 inset;
+}
+
+#resume:hover {
+  border-bottom: 1px solid #000000;
+  box-shadow: 0px -4px 0px #000000 inset;
+  transition: border-color 0.3s ease;
 }
 
 #contact-header {
   color: #33384c;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-indent: 80px;
+  margin-top: 30px;
 }
 
 
@@ -52,3 +61,27 @@ a {
   font-size: 1.3rem;
   color: black;
 }
+
+#BB {
+  border-bottom: 1px solid #5abbd6;
+  box-shadow: 0px -4px 0px #5abbd6 inset;
+}
+
+#BTNX {
+  border-bottom: 1px solid #91c549;
+  box-shadow: 0px -4px 0px #91c549 inset;
+}
+
+#email {
+  border-bottom: 1px solid #ffd96f;
+  box-shadow: 0px -4px 0px #ffd96f inset;
+}
+
+#resume-text {
+  text-align: center;
+  text-indent: 0 !important;
+  margin-top: 80px;
+
+}
+
+#wave {}

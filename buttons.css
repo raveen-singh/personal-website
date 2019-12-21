@@ -59,7 +59,7 @@
 #instagram-button {
     background-size: 200% 200%;
     background-image:
-        linear-gradient(to top, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%, transparent 50%);
+        linear-gradient(to top, #C13584 50%, transparent 50%);
     -webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
     -moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
     -ms-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
@@ -69,9 +69,9 @@
 }
 
 #instagram-button:hover {
-    border-color: #A72424;
+    border-color: #C13584;
     background-image:
-        linear-gradient(to top, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%), transparent 50%);
+        linear-gradient(to top, #C13584 51%, transparent 50%);
     background-position: 0 100%;
     -webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
     -moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
@@ -122,6 +122,54 @@
     border-color: #f5f5f5;
     background-image:
         linear-gradient(to top, #f5f5f5 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -ms-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -o-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+}
+
+#BB-button {
+    background-size: 200% 200%;
+    background-image:
+        linear-gradient(to top, #5abbd6 50%, transparent 50%);
+    -webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -ms-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -o-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+
+}
+
+#BB-button:hover {
+    border-color: #5abbd6;
+    background-image:
+        linear-gradient(to top, #5abbd6 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -ms-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -o-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+}
+
+#BTNX-button {
+    background-size: 200% 200%;
+    background-image:
+        linear-gradient(to top, #91c549 50%, transparent 50%);
+    -webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -ms-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -o-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+
+}
+
+#BTNX-button:hover {
+    border-color: #91c549;
+    background-image:
+        linear-gradient(to top, #91c549 51%, transparent 50%);
     background-position: 0 100%;
     -webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
     -moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
