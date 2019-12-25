@@ -11,11 +11,11 @@ body {
 
 #flex-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
+  margin-top: auto;
 }
 
 #flex-container div {
@@ -24,6 +24,7 @@ body {
   padding-bottom: 100px;
   padding-right: 10px;
   padding-left: 10px;
+  margin-bottom: auto;
 }
 
 p {
