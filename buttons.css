@@ -202,6 +202,31 @@
     transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
 }
 
+#TMX-button {
+    background-size: 200% 200%;
+    background-image:
+        linear-gradient(to top, #19242e 50%, transparent 50%);
+    -webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -ms-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -o-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+
+}
+
+#TMX-button:hover {
+    border-color: #19242e;
+    background-image:
+        linear-gradient(to top, #19242e 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -ms-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    -o-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+    transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+}
+
+
 #email {
     border-bottom: 1px solid #ffd96f;
     box-shadow: 0px -4px 0px #ffd96f inset;

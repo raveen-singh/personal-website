@@ -75,6 +75,11 @@ a {
   box-shadow: 0px -4px 0px #91c549 inset;
 }
 
+#TMX {
+  border-bottom: 1px solid #19242e;
+  box-shadow: 0px -4px 0px #19242e inset;
+}
+
 
 
 #resume-text {
