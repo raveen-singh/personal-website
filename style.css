@@ -16,7 +16,7 @@ html {
 
 #flex-container div {
   max-width: 500px;
-  padding-top: 25vh;
+  padding-top: 23vh;
   padding-bottom: 100px;
   padding-right: 10px;
   padding-left: 10px;
@@ -28,16 +28,29 @@ html {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+#header2 {
+  font-family: inter, Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0px;
 }
 
 p {
   color: rgb(55, 53, 47);
-
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: auto;
+  font-size: 1.1em;
 }
 
-
+#myself {
+  border-radius: 3%;
+  display: block;
+  width: 30%;
+}
 
 
 #wave {
@@ -78,8 +91,11 @@ p {
   }
 }
 
-#myself {
-  border-radius: 5%;
-  display: block;
-  width: 30%;
+#code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: normal;
+  background: rgba(135, 131, 120, 0.15);
+  color: #EB5757;
+  border-radius: 3px;
+  font-size: 85%;
 }
