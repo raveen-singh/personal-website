@@ -203,3 +203,18 @@ p {
   padding-top: 0 !important;
   padding-left: 0 !important;
 }
+
+#projects {
+
+}
+
+.section-header {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: normal;
+  background: rgba(135, 131, 120, 0.15);
+  color: #EB5757;
+  border-radius: 3px;
+  font-size: 85%;
+  padding-right: 2px;
+  padding-left: 2px;
+}
