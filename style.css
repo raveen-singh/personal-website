@@ -191,3 +191,15 @@ p {
   object-fit: cover;
   object-position: center 90%;
 }
+
+.card {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#work {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+}
